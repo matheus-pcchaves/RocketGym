@@ -8,7 +8,9 @@ export function HomeHeader(){
   return(
     <HStack bg={'gray.600'} pt={16} pb={5} px={8} alignItems='center' >
         <UserPhoto
-          source={{ uri: 'https://avatars.githubusercontent.com/u/71332261?s=400&u=0403c3d06964927c480b8402d9ec25b0e7c9e5f9&v=4' }}
+          source={{ 
+            uri: 'https://avatars.githubusercontent.com/u/71332261?s=400&u=0403c3d06964927c480b8402d9ec25b0e7c9e5f9&v=4' 
+          }}
           alt='Imagem do usuário'
           size={16}
           mr={4}
